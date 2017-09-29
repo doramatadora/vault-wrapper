@@ -1,0 +1,16 @@
+{
+  "name": "vault-wrapper",
+  "version": "0.0.0",
+  "description": "Browse Hashicorp Vault as JSON",
+  "main": "app.js",
+  "repository": "git@github.com:doramatadora/vault-wrapper.git",
+  "author": "doramatadora <dora.militaru@ft.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^8.5.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "node-fetch": "^1.7.3"
+  }
+}
