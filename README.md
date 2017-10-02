@@ -1,7 +1,7 @@
 # vault-wrapper
 If you need a way to list all secrets from your Hashicorp Vault, this is the dirtiest and least fancy.
 
-The implementation assumes a very specific structure (`VAULT_URL/repo/buildenvironment/`) because it suits me thusly at this time. 
+The implementation downloads all secrets at a specific path, including children. 
 
 ## installation
 
